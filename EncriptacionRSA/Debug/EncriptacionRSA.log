@@ -1,0 +1,34 @@
+﻿  test.c
+f:\proyectos\cplus\vc2010\encriptacionrsa\encriptacionrsa\test.c(46): warning C4244: '=' : conversión de 'double' a 'int'; posible pérdida de datos
+f:\proyectos\cplus\vc2010\encriptacionrsa\encriptacionrsa\test.c(228): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : vea la declaración de 'gets'
+
+Resumen del rendimiento del proyecto:
+      121 ms F:\Proyectos\cplus\vc2010\EncriptacionRSA\EncriptacionRSA\EncriptacionRSA.vcxproj   1 llamadas
+                121 ms ClCompile                                  1 llamadas
+
+Resumen del rendimiento de destino:
+        0 ms _SplitProjectReferencesByFileExistence     1 llamadas
+        0 ms PlatformPrepareForBuild                    1 llamadas
+        0 ms BeforeResolveReferences                    1 llamadas
+        0 ms SelectClCompile                            1 llamadas
+        0 ms GetReferenceAssemblyPaths                  1 llamadas
+        0 ms GetFrameworkPaths                          1 llamadas
+        0 ms _SelectedFiles                             1 llamadas
+        0 ms SelectCustomBuild                          1 llamadas
+        0 ms ResolveProjectReferences                   1 llamadas
+        0 ms ComputeMIDLGeneratedCompileInputs          1 llamadas
+        0 ms AfterResolveReferences                     1 llamadas
+        0 ms ResolveReferences                          1 llamadas
+        1 ms ComputeReferenceCLInput                    1 llamadas
+        1 ms ComputeCLInputPDBName                      1 llamadas
+        2 ms PrepareForBuild                            1 llamadas
+        3 ms _CheckForInvalidConfigurationAndPlatform   1 llamadas
+        4 ms SetBuildDefaultEnvironmentVariables        1 llamadas
+      109 ms ClCompile                                  1 llamadas
+
+Resumen del rendimiento de la tarea:
+        1 ms Message                                    2 llamadas
+        1 ms MakeDir                                    2 llamadas
+        4 ms SetEnv                                     4 llamadas
+      108 ms CL                                         1 llamadas
