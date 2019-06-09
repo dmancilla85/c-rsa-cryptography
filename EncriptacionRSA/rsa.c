@@ -32,21 +32,21 @@ int sonCoprimos(int a, int b)
 	return mcd(a, b) == 1;
 }
 
-// Comprobamos si un número es primo o no
+// Comprobamos si un nÃºmero es primo o no
 int esPrimo(int numero)
 {
   int res = 0;
   int divs = 2;
   int mitad;
   
-  if (numero > 2)    // Si el número es mayor a 2, comprobamos si es primo.
+  if (numero > 2)    // Si el nÃºmero es mayor a 2, comprobamos si es primo.
     {
-      /* Para ahorrar sólo comprobamos si un número es divisible hasta su mitad, ya que 7/2 = 3.xxx, 7/3=2.xxx, 7/4=0.xxx */
-      /* cuando empezamos a obtener valores menores que 0, ya no encontraremos más divisores enteros */
+      /* Para ahorrar sÃ³lo comprobamos si un nÃºmero es divisible hasta su mitad, ya que 7/2 = 3.xxx, 7/3=2.xxx, 7/4=0.xxx */
+      /* cuando empezamos a obtener valores menores que 0, ya no encontraremos mÃ¡s divisores enteros */
       mitad = floor( (double) numero / 2);
       do
     {
-      res = (numero % divs != 0);  /* ¿ El resto es 0 ? */
+      res = (numero % divs != 0);  /* Â¿ El resto es 0 ? */
       //      printf("Divido %d entre %d. Resto %d. Res: %d\n", numero, divs, numero%divs, res);
       divs++;
 
